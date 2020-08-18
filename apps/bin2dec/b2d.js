@@ -5,7 +5,9 @@ let inputBin = document.getElementById('inputBin');
     inputBin.addEventListener('keydown', e=>{
         inputBin.value.substring(0,8)
         console.log(e.keyCode)
-        if((e.keyCode >= 32 && e.keyCode <= 47) || (e.keyCode >=50 && e.keyCode <= 95) || (e.keyCode >=98 && e.keyCode <= 127)){
+        if((e.keyCode >= 32 && e.keyCode <= 47) ||
+          (e.keyCode >=50 && e.keyCode <= 95) || 
+          (e.keyCode >=98 && e.keyCode <= 127)){
             e.preventDefault()
         }
     })
