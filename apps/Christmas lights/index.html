@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="icon" href="img/" >
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid d-flex flex-column">
+            <div class="row">
+                <div class="col-3 bg-dark content">
+                    <aside>              
+                        <ul class="input-group d-block">
+                                <li><select name="color" id="color" class="form-control">
+                                        <option value="blue">blue</option>
+                                        <option value="red">red</option>
+                                        <option value="green">green</option>
+                                        <option value="white">white</option>
+                                    </select>
+                                </li>
+                                <li><select name="size" id="size" class="form-control">
+                                        <option value="50">small</option>
+                                        <option value="100">medium</option>
+                                        <option value="150">large</option>
+                                    </select>
+                                </li>
+                                <li>    
+                                    <select name="intensity" id="intensity" class="form-control">
+                                        <option value="2500">slow</option>
+                                        <option value="2000">moderate</option>
+                                        <option value="800">fast</option>
+                                    </select>
+                                </li>
+                                <li>   
+                                    <label for="amount" class="text-white">Lights</label>
+                                    <select name="amount" id="amount" class="form-control">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </li>
+                                <li>   
+                                    <label for="rows" class="text-white">Rows</label>
+                                    <select name="rows" id="rows" class="form-control">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </li>
+                            </ul>
+                            <button id="btn-toggle" class="btn btn-success form-control mb-3">Enter</button>
+                            <button id="switch" class="btn btn-info form-control"><i class="fa fa-toggle-on"></i></button>
+                    </aside>
+                </div>
+                <div class="col-9 content">
+                        <div class="container">
+                            <div class="row h-100 d-block align-items-center p-5" id="light-content">
+                            </div>
+                        </div>
+                </div>
+            </div>    
+        </div>
+    </header>
+</body>
+<script src="js/index.js"></script>
+
+
+
+</html>

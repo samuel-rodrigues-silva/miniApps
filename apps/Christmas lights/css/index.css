@@ -1,0 +1,30 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    padding: 10px;
+}
+
+ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#main-content{
+    height: 100vh;
+}
+
+.content{
+    height: 100vh;
+}
+
+.tinkle{
+    border: 1px solid transparent;
+    transition: border 1s linear;
+    transition: box-shadow 1s linear;
+}
+
+.tinkle.active{
+    box-shadow: 0 0 100px rgb(248, 248, 5);
+}
