@@ -1,0 +1,51 @@
+body{
+    padding: 10px;
+    margin: 0;
+}
+
+#main{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
+#countdown-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+#countdown-input{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 20px;
+}
+
+#countdown-input input, #countdown-input button{
+    margin-top: 6px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    border-top: none;
+    border-left:1px solid rgb(125, 0, 125);
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+}
+
+#countdown-input button{
+    background: rgb(155, 1, 155);
+    color: white;
+    font-weight: bold;
+}
